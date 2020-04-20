@@ -5,52 +5,52 @@
 Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
 Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-Gerado em: 2020.02.20 às 07:16:30 PM BRT 
+Gerado em: 2020.03.30 às 02:34:30 PM BRT 
 
   -->
   <bindings xmlns:tns="http://www.totvs.com/" if-exists="true" scd="x-schema::tns">
     <schemaBindings map="false">
-      <package name="br.edu.unicid.RMBasicWSDLClient.domain"/>
+      <package name="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL"/>
     </schemaBindings>
     <bindings if-exists="true" scd="tns:Implements">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.Implements"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.Implements"/>
     </bindings>
     <bindings if-exists="true" scd="tns:ImplementsResponse">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.ImplementsResponse"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.ImplementsResponse"/>
     </bindings>
     <bindings if-exists="true" scd="tns:CheckServiceActivity">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.CheckServiceActivity"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.CheckServiceActivity"/>
     </bindings>
     <bindings if-exists="true" scd="tns:CheckServiceActivityResponse">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.CheckServiceActivityResponse"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.CheckServiceActivityResponse"/>
     </bindings>
     <bindings if-exists="true" scd="tns:AutenticaAcesso">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.AutenticaAcesso"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.AutenticaAcesso"/>
     </bindings>
     <bindings if-exists="true" scd="tns:AutenticaAcessoResponse">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.AutenticaAcessoResponse"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.AutenticaAcessoResponse"/>
     </bindings>
     <bindings if-exists="true" scd="tns:RealizarConsultaSQL">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.RealizarConsultaSQL"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.RealizarConsultaSQL"/>
     </bindings>
     <bindings if-exists="true" scd="tns:RealizarConsultaSQLResponse">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.RealizarConsultaSQLResponse"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.RealizarConsultaSQLResponse"/>
     </bindings>
   </bindings>
   <bindings xmlns:tns="http://schemas.datacontract.org/2004/07/System" if-exists="true" scd="x-schema::tns">
     <schemaBindings map="false">
-      <package name="br.edu.unicid.RMBasicWSDLClient.domain"/>
+      <package name="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL"/>
     </schemaBindings>
     <bindings if-exists="true" scd="~tns:Type">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.Type"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.Type"/>
     </bindings>
   </bindings>
   <bindings xmlns:tns="http://schemas.datacontract.org/2004/07/System.Reflection" if-exists="true" scd="x-schema::tns">
     <schemaBindings map="false">
-      <package name="br.edu.unicid.RMBasicWSDLClient.domain"/>
+      <package name="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL"/>
     </schemaBindings>
     <bindings if-exists="true" scd="~tns:MemberInfo">
-      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.MemberInfo"/>
+      <class ref="br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL.MemberInfo"/>
     </bindings>
   </bindings>
 </bindings>

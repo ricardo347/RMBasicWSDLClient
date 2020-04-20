@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.02.20 às 07:16:30 PM BRT 
+// Gerado em: 2020.03.30 às 02:34:30 PM BRT 
 //
 
 
-package br.edu.unicid.RMBasicWSDLClient.domain;
+package br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

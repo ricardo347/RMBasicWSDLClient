@@ -49,6 +49,18 @@
 			<version>1.14</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.tika</groupId>
+			<artifactId>tika-core</artifactId>
+			<version>1.23</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -64,20 +76,34 @@
 				<version>0.13.2</version>
 				<executions>
 					<execution>
+						<id>generation-schema-wsConsultaSQL</id>
 						<goals>
 							<goal>generate</goal>
 						</goals>
-					</execution>
-				</executions>
-				<configuration>
+						<configuration>
+							<generatePackage>br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL</generatePackage>
+							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+							<schemaDirectory>${project.basedir}/src/main/resources/wsdl/wsConsultaSQL</schemaDirectory>
 
-					<generatePackage>br.edu.unicid.RMBasicWSDLClient.domain</generatePackage>
-					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
-					<schemaIncludes>
-						<include>*.wsdl</include>
-					</schemaIncludes>
-				</configuration>
+							<schemaIncludes>
+								<include>*.wsdl</include>
+							</schemaIncludes>
+						</configuration>
+					</execution>
+
+					<!-- <execution> <id>generation-schema-wsDataServer</id> <goals> <goal>generate</goal> 
+						</goals> <configuration> <generatePackage>br.edu.unicid.RMBasicWSDLClient.domain.wsDataServer</generatePackage> 
+						<generateDirectory>${project.basedir}/src/main/java</generateDirectory> <schemaDirectory>${project.basedir}/src/main/resources/wsdl/wsDataServer</schemaDirectory> 
+						<schemaIncludes> <include>*.wsdl</include> </schemaIncludes> </configuration> 
+						</execution> <execution> <id>generation-schema-types-MovMovimentoTBCData</id> 
+						<goals> <goal>generate</goal> </goals> <configuration> <generatePackage>br.edu.unicid.RMBasicWSDLClient.domain.MovMovimentoTBCData</generatePackage> 
+						<generateDirectory>${project.basedir}/src/main/java</generateDirectory> <schemaDirectory>${project.basedir}/src/main/resources/wsdl/MovMovimentoTBCData</schemaDirectory> 
+						<schemaIncludes> <include>*.xsd</include> </schemaIncludes> </configuration> 
+						</execution> -->
+
+				</executions>
+
+
 			</plugin>
 
 		</plugins>

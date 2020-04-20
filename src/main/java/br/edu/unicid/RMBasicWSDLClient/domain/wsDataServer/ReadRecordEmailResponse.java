@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.02.20 às 07:16:30 PM BRT 
+// Gerado em: 2020.03.16 às 06:46:52 PM BRT 
 //
 
 
-package br.edu.unicid.RMBasicWSDLClient.domain;
+package br.edu.unicid.RMBasicWSDLClient.domain.wsDataServer;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="AutenticaAcessoResult" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="ReadRecordEmailResult" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -37,36 +37,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "autenticaAcessoResult"
+    "readRecordEmailResult"
 })
-@XmlRootElement(name = "AutenticaAcessoResponse")
-public class AutenticaAcessoResponse {
+@XmlRootElement(name = "ReadRecordEmailResponse")
+public class ReadRecordEmailResponse {
 
-    @XmlElementRef(name = "AutenticaAcessoResult", namespace = "http://www.totvs.com/", type = JAXBElement.class, required = false)
-    protected JAXBElement<String> autenticaAcessoResult;
+    @XmlElementRef(name = "ReadRecordEmailResult", namespace = "http://www.totvs.com/", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> readRecordEmailResult;
 
     /**
-     * Obtém o valor da propriedade autenticaAcessoResult.
+     * Obtém o valor da propriedade readRecordEmailResult.
      * 
      * @return
      *     possible object is
      *     {@link JAXBElement }{@code <}{@link String }{@code >}
      *     
      */
-    public JAXBElement<String> getAutenticaAcessoResult() {
-        return autenticaAcessoResult;
+    public JAXBElement<String> getReadRecordEmailResult() {
+        return readRecordEmailResult;
     }
 
     /**
-     * Define o valor da propriedade autenticaAcessoResult.
+     * Define o valor da propriedade readRecordEmailResult.
      * 
      * @param value
      *     allowed object is
      *     {@link JAXBElement }{@code <}{@link String }{@code >}
      *     
      */
-    public void setAutenticaAcessoResult(JAXBElement<String> value) {
-        this.autenticaAcessoResult = value;
+    public void setReadRecordEmailResult(JAXBElement<String> value) {
+        this.readRecordEmailResult = value;
     }
 
 }

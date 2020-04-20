@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.02.20 às 07:16:30 PM BRT 
+// Gerado em: 2020.03.30 às 02:34:30 PM BRT 
 //
 
 
-package br.edu.unicid.RMBasicWSDLClient.domain;
+package br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -21,7 +21,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the br.edu.unicid.RMBasicWSDLClient.domain package. 
+ * generated in the br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -66,7 +66,7 @@ public class ObjectFactory {
     private final static QName _RealizarConsultaSQLResponseRealizarConsultaSQLResult_QNAME = new QName("http://www.totvs.com/", "RealizarConsultaSQLResult");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.edu.unicid.RMBasicWSDLClient.domain
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.edu.unicid.RMBasicWSDLClient.domain.wsConsultaSQL
      * 
      */
     public ObjectFactory() {
